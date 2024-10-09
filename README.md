@@ -12,5 +12,3 @@ Bu proje, HTML, CSS ve SCSS kullanılarak oluşturulmuş bir responsive web site
 ![](images/proje.gif)
 
 ## This web page was edited by Samet KOLSUZ ##
-# Udemig-Education
-# udemig
