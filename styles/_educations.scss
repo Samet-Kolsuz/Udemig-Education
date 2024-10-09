@@ -1,0 +1,32 @@
+@import "./global";
+@import "./variables";
+
+
+.educations-content {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(150px, auto));
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    h4{
+
+    }
+}
+.row-img{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    img{
+        width: 100%;
+        display: block;
+        @extend .transition;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+
+}
